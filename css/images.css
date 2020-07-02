@@ -1,0 +1,68 @@
+img {
+    opacity: 0.9;
+    border: 1px solid purple;
+    box-shadow: 0 0 0.1rem 0.1rem #d50;
+}
+
+img:hover {
+    opacity: 1;
+    border: 1px solid white;
+    box-shadow: 0 0 0.2rem 0.2rem #d50;
+    
+}
+
+/* Images in main tag */
+.main-image {
+    max-width: 30%;
+    border-radius: 0.5rem;
+}
+
+.central-image {
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.image-left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.image-right {
+    float: right;
+    margin-left: 1rem;
+}
+
+/* Images in aside tag */
+.aside-image {
+    width: 90%;
+    height: auto;
+    margin: 0.5rem auto 3rem auto;
+}
+
+.aside-image:first-child {
+    margin: 0;
+}
+
+.aside-image-one:after {
+    display: block;
+    content: '*Източник divino.bg';
+    margin-bottom: 2rem;
+}
+
+.aside-image-two:after {
+    display: block;
+    content: '*Източник maxim.com';
+}
+
+/* .aside-pics .song { */
+	/* margin-bottom: 2rem; */
+/* } */
+
+
+@media (max-width: 800px) {
+    .main-image {
+    max-width: 50%;
+}
+}
