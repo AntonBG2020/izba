@@ -255,21 +255,18 @@ main:after {
 
 .sixth-section:after {
     display: block;
-    content: 'Който не е опитвал еино от широка мелнишка лоза, той нищо не знае';
+    content: 'Който не е опитвал вино от Широка мелнишка лоза, той не знае какво е хубаво червено вино';
     padding: 1rem;
     background: rgb(218, 71, 144);
     text-align: center;
 }
 
-.first-section img, .second-section img, .third-section img, .fourth-section img, .fifth-section img {
+.first-section img, .second-section img, .third-section img, .fourth-section img, .fifth-section img, .sixth-section img {
     width: 100%;
     height: auto;
 }
 
-.sixth-section img {
-   width: 100%;
-   height: 65%;
-}
+
 /* END */
 
 .last-p {
